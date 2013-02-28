@@ -55,3 +55,10 @@ ro.ril.ecclist=112,911,#911,*911
 
 # Support Global Mode (Global Mode project)
 #ro.config.multimode_cdma=1
+
+# Default to LTE/CDMA/EvDo Network Mode
+ro.telephony.default_network=8
+ro.config.qc_lte_network_modes=true
+
+# Use temp gps fix
+ro.agps.allow=false
