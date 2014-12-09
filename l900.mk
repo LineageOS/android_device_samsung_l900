@@ -39,6 +39,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.qc_lte_network_modes=true
 
+# Disable MSB for GPS
+NEEDS_GPS_MSB_DISABLED := true
+
 # Include common makefile
 $(call inherit-product, device/samsung/t0lte/common.mk)
 
