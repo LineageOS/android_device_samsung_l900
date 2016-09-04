@@ -51,3 +51,8 @@ persist.radio.snapshot_timer=22
 
 # Default ECCList (Except USCC)
 ro.ril.ecclist=112,911,#911,*911
+
+# Debug
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
