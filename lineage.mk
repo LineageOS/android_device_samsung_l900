@@ -17,6 +17,3 @@ PRODUCT_NAME := lineage_l900
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SPH-L900
 PRODUCT_MANUFACTURER := samsung
-
-# Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=t0ltespr TARGET_DEVICE=t0ltespr BUILD_FINGERPRINT="samsung/t0ltespr/t0ltespr:4.4.2/KOT49H/L900VPUCNE2:user/release-keys" PRIVATE_BUILD_DESC="t0ltespr-user 4.4.2 KOT49H L900VPUCNE2 release-keys"
